@@ -1,0 +1,65 @@
+body {
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(215, 179, 245);
+    padding: 50px 0 30px 0;
+}
+
+header img {
+    border-radius: 100%;
+    object-fit: cover;
+    border: 20px solid #fff;
+}
+header h1{
+    font-size: 50px;
+    color: rgb(161, 94, 238);
+}
+h1, h2{
+    font-family: 'Pacifico', cursive;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+main img{
+    max-width: 100%;
+}
+h2{
+    font-size: 30px;
+    color: rgb(161, 94, 238);
+    margin: 40px 0 10px;
+}
+a{
+    color: blueviolet;
+}
+a:hover{
+    color: burlywood;
+    background-color: chocolate;
+}
+footer{
+    background-color: rgb(215, 179, 245);
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    opacity: 0.5;
+    background-color: transparent;
+}
+footer p{
+    margin: 0;
+}
+p.caption{
+    color: chocolate;
+    font-style: italic;
+    margin-top: 0;
+}
