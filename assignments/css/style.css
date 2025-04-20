@@ -41,12 +41,15 @@ input[type='number'] {
 
 input[type='radio']{width: 16px; height: 16px; cursor: pointer;}
 
-.wrap{width: 100%; margin: 0 auto;}
-.wrap h2{font-size: 24px; margin-bottom: 30px; padding: 20px; padding-bottom: 0;}
+.wrap{width: 100%; margin: 20px auto; max-width: 900px;}
+.wrap .book_profile{display: flex; align-items: flex-start;}
+.wrap .book_profile img{border: 1px solid #ddd; width: 200px;}
+.wrap .book_profile h2{font-size: 24px; margin-bottom: 30px; padding: 20px; padding-bottom: 0;}
 .wrap>ul>li{border-bottom: 1px solid #ddd; padding: 20px;}
 .wrap>ul>li::before{content: '\F09DF'; font-family: 'Material Design Icons';}
 .wrap>ul>li .book_cont{margin: 10px 0 0 30px;}
 .wrap>ul>li p.book_cont{font-size: 14px; line-height: 20px; word-break: keep-all;}
 .wrap>ul>li ol li{list-style: auto; margin-bottom: 5px;}
+.wrap>ul>li ol li{margin-left: 20px;}
 .btn_wrap{width: 100%; text-align: center;}
 .btn_wrap .book_btn{width: calc(100% - 40px); margin: 20px auto; padding: 10px; background-color: #555; color: #fff; font-size: 18px;}
