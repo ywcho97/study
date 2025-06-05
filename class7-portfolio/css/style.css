@@ -105,6 +105,7 @@ figcaption {
 
 p {
     line-height: 130%;
+    word-break: keep-all;
 }
 
 .project {
